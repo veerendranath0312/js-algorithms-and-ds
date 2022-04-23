@@ -1,0 +1,13 @@
+## Pushing
+
+- To push the local code to GitHub, we need to use the git push command
+- We need to specify the remote we want to push up to AND the specific local branch we want to push up to that remote
+
+# To push the code
+$ git push <remote> <branch>
+
+# Example
+$ git push origin master
+
+
+- git push origin master tells git push up the master branch to our origin remote
