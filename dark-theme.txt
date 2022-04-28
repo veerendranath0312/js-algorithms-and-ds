@@ -1,3 +1,3 @@
-Let's think that I have added some Bootstarp for dark theme :)
+Let's think that I have added some Bootstarp code for dark theme :)
 
 Modified some code so that the dark theme looks minimal
