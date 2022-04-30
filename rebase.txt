@@ -18,3 +18,6 @@ Rebasing❗
 $ git switch feature
 $ git rebase master
 ```
+
+- If the master branch is very active then your feature branch’s history is muddied
+- Now when your work is done and when you push your changes back into master there will be a lot of unnecessary merges commits in the master branch
