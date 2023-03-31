@@ -11,6 +11,8 @@ Solutions to the [JavaScript Algorithms and Data Structures Certification](https
 
 - [String.prototype.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match)
 
+- [String.prototype.charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt) - Returns the ASCII code of a character at a given index.
+
 - [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
     - The replace method also takes a callback function as a second parameter that iterates through the matched characters based on a RegEx pattern.
         ```js
