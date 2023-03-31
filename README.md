@@ -54,5 +54,22 @@ Solutions to the [JavaScript Algorithms and Data Structures Certification](https
     ```js
     /^1?[- ]?(\d{3}|\(\d{3}\))[- ]?(\d{3})[- ]?(\d{4})$/
     ```
+    - `^1?` - The number may start with digit 1
+    
+    - `[- ]?` - The number may optionally contain a hyphen or space. It should be placed after digit 1
+    
+    - `(\d{3}|\(\d{3}\))` - An OR condition. Then the number must contain three digits or three digits that are surrounded by paranthesis
+        
+        - `\d{3}` - Three numbers with no paranthesis. For example, 555
+        
+        - `\(\d{3}\)` - Three numbers with paranthesis. For example, (555)
+    
+    - `[- ]?` - The number may optionally contain a hyphen or space. It can be placed either after the paranthesis or following the first three digits. For example, (555)- or 555-
+    
+    - `(\d{3})` - Then the number must contain another three digits. For example, it can look like this: (555)-555, 555-555, 555555
+    
+    - `[- ]?` - It allows you to include an optional hyphen in the end, like this: (555)-555-, -555- or 555555-
+    
+    - `(\d{4})$` - Finally, the sequence must end with four digits. For example, (555)-555-5555, 555-555-5555, or 555555-5555.
     
 ![Regular Expression](image.png)
