@@ -54,4 +54,5 @@ Solutions to the [JavaScript Algorithms and Data Structures Certification](https
     ```js
     /^1?[- ]?(\d{3}|\(\d{3}\))[- ]?(\d{3})[- ]?(\d{4})$/
     ```
-![](/image.png)
+    
+![Regular Expression](image.png)
