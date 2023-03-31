@@ -48,3 +48,10 @@ Solutions to the [JavaScript Algorithms and Data Structures Certification](https
   ```js
   [1, 2, 3, 4, 5].reduce((multiple, curr) => lcm(multiple, curr))
   ```
+  
+- Regular Expression Explanation
+    
+    ```js
+    /^1?[- ]?(\d{3}|\(\d{3}\))[- ]?(\d{3})[- ]?(\d{4})$/
+    ```
+![](/image.png)
